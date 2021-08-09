@@ -1,5 +1,5 @@
 {
-    "name": "godruoyi/php-snowflake",
+    "name": "trrtly/php-snowflake",
     "description": "An ID Generator for PHP based on Snowflake Algorithm (Twitter announced).",
     "license": "MIT",
     "keywords": [
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Godruoyi\\Snowflake\\": "src"
+            "Trrtly\\Snowflake\\": "src"
         }
     }
 }

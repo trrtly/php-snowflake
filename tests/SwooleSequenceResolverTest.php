@@ -10,7 +10,7 @@
 
 namespace Tests;
 
-use Godruoyi\Snowflake\SwooleSequenceResolver;
+use Trrtly\Snowflake\SwooleSequenceResolver;
 
 class SwooleSequenceResolverTest extends TestCase
 {

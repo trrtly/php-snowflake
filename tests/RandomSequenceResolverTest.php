@@ -10,7 +10,7 @@
 
 namespace Tests;
 
-use Godruoyi\Snowflake\RandomSequenceResolver;
+use Trrtly\Snowflake\RandomSequenceResolver;
 
 class RandomSequenceResolverTest extends TestCase
 {

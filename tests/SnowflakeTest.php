@@ -10,9 +10,9 @@
 
 namespace Tests;
 
-use Godruoyi\Snowflake\RandomSequenceResolver;
-use Godruoyi\Snowflake\SequenceResolver;
-use Godruoyi\Snowflake\Snowflake;
+use Trrtly\Snowflake\RandomSequenceResolver;
+use Trrtly\Snowflake\SequenceResolver;
+use Trrtly\Snowflake\Snowflake;
 
 class SnowflakeTest extends TestCase
 {

@@ -10,7 +10,7 @@
 
 namespace Tests;
 
-use Godruoyi\Snowflake\RedisSequenceResolver;
+use Trrtly\Snowflake\RedisSequenceResolver;
 
 class RedisSequenceResolverTest extends TestCase
 {

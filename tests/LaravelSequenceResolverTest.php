@@ -10,7 +10,7 @@
 
 namespace Tests;
 
-use Godruoyi\Snowflake\LaravelSequenceResolver;
+use Trrtly\Snowflake\LaravelSequenceResolver;
 
 class LaravelSequenceResolverTest extends TestCase
 {

@@ -8,7 +8,7 @@
  * This source file is subject to the MIT license that is bundled.
  */
 
-namespace Godruoyi\Snowflake;
+namespace Trrtly\Snowflake;
 
 class Snowflake
 {
@@ -39,7 +39,7 @@ class Snowflake
     /**
      * The Sequence Resolver instance.
      *
-     * @var \Godruoyi\Snowflake\SequenceResolver|null
+     * @var \Trrtly\Snowflake\SequenceResolver|null
      */
     protected $sequence;
 
@@ -53,7 +53,7 @@ class Snowflake
     /**
      * Default sequence resolver.
      *
-     * @var \Godruoyi\Snowflake\SequenceResolver|null
+     * @var \Trrtly\Snowflake\SequenceResolver|null
      */
     protected $defaultSequenceResolver;
 
@@ -179,7 +179,7 @@ class Snowflake
     /**
      * Get Sequence Resolver.
      *
-     * @return \Godruoyi\Snowflake\SequenceResolver|callable|null
+     * @return \Trrtly\Snowflake\SequenceResolver|callable|null
      */
     public function getSequenceResolver()
     {
@@ -189,7 +189,7 @@ class Snowflake
     /**
      * Get Default Sequence Resolver.
      *
-     * @return \Godruoyi\Snowflake\SequenceResolver
+     * @return \Trrtly\Snowflake\SequenceResolver
      */
     public function getDefaultSequenceResolver(): SequenceResolver
     {
@@ -199,7 +199,7 @@ class Snowflake
     /**
      * Call resolver.
      *
-     * @param callable|\Godruoyi\Snowflake\SequenceResolver $resolver
+     * @param callable|\Trrtly\Snowflake\SequenceResolver $resolver
      * @param int                                           $maxSequence
      *
      * @return int

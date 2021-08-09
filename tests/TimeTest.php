@@ -10,7 +10,7 @@
 
 namespace Tests;
 
-use Godruoyi\Snowflake\Snowflake;
+use Trrtly\Snowflake\Snowflake;
 
 class TimeTest extends TestCase
 {
