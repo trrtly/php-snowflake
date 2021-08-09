@@ -76,7 +76,7 @@ class Snowflake
     /**
      * Get snowflake id.
      *
-     * @return string
+     * @return int
      */
     public function id()
     {
@@ -90,7 +90,7 @@ class Snowflake
         $datacenterLeftMoveLength = self::MAX_WORKID_LENGTH + $workerLeftMoveLength;
         $timestampLeftMoveLength = self::MAX_DATACENTER_LENGTH + $datacenterLeftMoveLength;
 
-        return (string) ((($currentTime - $this->getStartTimeStamp()) << $timestampLeftMoveLength)
+        return ((($currentTime - $this->getStartTimeStamp()) << $timestampLeftMoveLength)
             | ($this->datacenter << $datacenterLeftMoveLength)
             | ($this->workerid << $workerLeftMoveLength)
             | ($sequence));

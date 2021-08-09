@@ -43,7 +43,7 @@ class Sonyflake extends Snowflake
     /**
      * Get Sonyflake id.
      *
-     * @return string
+     * @return int
      */
     public function id()
     {
@@ -67,7 +67,7 @@ class Sonyflake extends Snowflake
             throw new \Exception('Exceeding the maximum life cycle of the algorithm.');
         }
 
-        return (string) ($elapsedTime << $timestampLeftMoveLength
+        return ($elapsedTime << $timestampLeftMoveLength
             | ($this->machineid << $machineidLeftMoveLength)
             | ($sequence));
     }
